@@ -2,14 +2,107 @@ body {
   background-color: #fafbff;
   background-image: url(../images/bg-pattern.svg);
   background-repeat: no-repeat;
+  font-family: "Manrope", sans-serif;
+  color: #858fad;
+}
+
+header {
+  background-image: url(../images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 35px;
+  margin-top: 85px;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 14px;
+}
+header h1 {
+  font-size: 24px;
+  color: #293356;
+}
+header p {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  line-height: 28px;
 }
 
 main {
   background: white;
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 18px 30px #a4a4a43d;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
   width: 90%;
+}
+
+.ctn-card {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.month-value span {
+  font-size: 30px;
+  font-weight: 800;
+  color: #293356;
+}
+
+.span-discount {
+  background-color: #feece7;
+  color: #ff8c66;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+.span-discount span {
+  display: none;
+}
+
+.ctn-card-bottom {
+  border-top: 1px solid #eaeefb;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.ctn-card-bottom p span {
+  margin-right: 15px;
+}
+
+.btn-principal {
+  background-color: #293356;
+  color: #bdccff;
+  cursor: pointer;
+  padding: 10px 25px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px;
+  margin-top: 25px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 550px;
+  }
+
+  .span-discount span {
+    display: inline;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
