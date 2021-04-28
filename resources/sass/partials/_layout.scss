@@ -52,6 +52,10 @@ main {
     color: $DarkDesaturatedBlue;
 }
 
+.month-checkbox {
+    display: flex;
+}
+
 .span-discount {
     background-color: $LightGrayishRed;
     color: $LightRed;
