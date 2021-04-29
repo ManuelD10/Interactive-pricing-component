@@ -54,6 +54,11 @@ main {
 
 .month-checkbox {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: 12px;
+    }
 }
 
 .span-discount {
@@ -108,5 +113,38 @@ main {
         span {
             display: inline;
         }
+    }
+}
+
+@include medium {
+    .ctn-card-slider {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .order-1 {
+        order: 1;
+    }
+    .order-2 {
+        order: 2;
+    }
+    .order-3 {
+        order: 3;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .ctn-card-bottom-p {
+        text-align: left;
+    }
+    .ctn-card-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .month-checkbox {
+        justify-content: flex-end;
+        margin-right: 50px;
     }
 }
