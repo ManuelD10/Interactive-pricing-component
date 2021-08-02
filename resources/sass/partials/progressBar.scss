@@ -1,0 +1,29 @@
+.order-3 input[type="range"] {
+    width: 90%;
+}
+
+.myrange{
+    appearance: none;
+    background-color: $SoftCyan;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.myrange::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-image: url(../images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: $StrongCyan;
+    border-radius: 50%;
+    box-shadow: 0px 5px 20px $StrongCyan;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.myrange::-webkit-slider-thumb:active{
+    background-color: hsl(174, 89%, 31%);;
+}
