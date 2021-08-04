@@ -46,10 +46,16 @@ main {
   font-weight: 600;
 }
 
-.month-value span {
+.price span {
   font-size: 30px;
   font-weight: 800;
   color: #293356;
+}
+
+.price .month {
+  color: #858fad;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .month-checkbox {
